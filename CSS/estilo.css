@@ -1,0 +1,279 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 62,5%;
+  margin: 0px; }
+
+/* Header*/
+header #logo {
+  background-color: #F5EEF8;
+  padding-bottom: 50px; }
+
+header #RedesNav {
+  background-color: #ECF0F1;
+  margin-top: 20px;
+  padding: 15px; }
+  header #RedesNav #RedesNav ul li {
+    padding-left: 10px;
+    padding-right: 10px; }
+
+header .navbar {
+  margin-right: 7%;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  font-size: 1.2rem;
+  font-weight: lighter; }
+  header .navbar .nav-link {
+    font-weight: bolder;
+    color: #A400FF;
+    padding: 0px;
+    margin-left: 2%; }
+  header .navbar .nav-link:hover {
+    text-decoration: 2px underline;
+    color: #A400FF; }
+
+/* Index - Portfolio y Servicios*/
+h1 {
+  font-family: 'Domine', serif;
+  font-size: 3.5rem;
+  color: #626567;
+  text-align: center; }
+  h1 #barra {
+    color: #9C27B0;
+    font-size: 4rem;
+    font-weight: bolder;
+    font-family: 'Domine', serif; }
+  h1 .punto {
+    color: #A400FF;
+    font-size: 5rem;
+    font-weight: bolder; }
+
+h2 {
+  font-size: 1rem;
+  color: #626567;
+  text-align: center;
+  margin-left: 4%;
+  margin-right: 4%; }
+
+.portfolio_imagenes {
+  padding: 1%;
+  margin-left: 3%;
+  margin-right: 3%;
+  padding-bottom: 80px; }
+  .portfolio_imagenes .AtributosTexto {
+    font-size: 1.3em;
+    margin-top: 50px;
+    color: #626567;
+    text-decoration: underline; }
+  .portfolio_imagenes .card {
+    border: red 5px none; }
+    .portfolio_imagenes .card .card-body .NombreProyecto {
+      font-weight: bolder;
+      color: #7B7D7D;
+      font-size: 1rem; }
+    .portfolio_imagenes .card .card-body .TipoProyectoServicios {
+      text-align: center;
+      color: #7B7D7D;
+      font-size: 1rem; }
+    .portfolio_imagenes .card .card-body .VerProyecto {
+      font-size: 0.8rem;
+      text-decoration-line: none;
+      color: #A400FF; }
+    .portfolio_imagenes .card .card-body .VerProyecto:hover {
+      font-size: 0.8rem;
+      text-decoration: none; }
+  .portfolio_imagenes .card img:hover {
+    transform: scale(1.05, 1);
+    filter: grayscale(100%); }
+
+/* Sobre mi*/
+#Habilidades {
+  display: flex;
+  margin-top: 70px; }
+  #Habilidades #Habilidades .row {
+    justify-content: center; }
+    #Habilidades #Habilidades .row .SobreMiHabilidad {
+      padding: 20%; }
+      #Habilidades #Habilidades .row .SobreMiHabilidad .tituloServicios {
+        color: #A400FF;
+        text-align: center;
+        font-size: 1.2em; }
+      #Habilidades #Habilidades .row .SobreMiHabilidad p {
+        color: #7B7D7D;
+        font-size: 1rem;
+        text-align: center; }
+      #Habilidades #Habilidades .row .SobreMiHabilidad .btn-outline-secondary {
+        border: grey 1px solid;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        margin-bottom: 100px;
+        background-color: white; }
+      #Habilidades #Habilidades .row .SobreMiHabilidad .btn-outline-secondary a {
+        color: #9C27B0; }
+      #Habilidades #Habilidades .row .SobreMiHabilidad .btn-outline-secondary a:hover {
+        color: white;
+        text-decoration: none; }
+
+/* Secciones individuales*/
+div .card {
+  border: red 5px none; }
+  div .card .FotoIndividual {
+    margin-left: 4%;
+    margin-bottom: 3%;
+    margin-right: 4%; }
+
+div .TituloSecciones {
+  margin-left: 4%;
+  margin-bottom: 3%;
+  font-weight: bolder;
+  font-size: 1,3em;
+  margin-right: 4%;
+  color: #7B7D7D; }
+
+div .TextoSecciones {
+  margin-left: 4%;
+  margin-bottom: 3%;
+  margin-right: 4%;
+  color: #7B7D7D; }
+
+div .FotoGrandeSecciones {
+  margin-left: 4%;
+  margin-bottom: 3%;
+  margin-right: 4%; }
+
+/* Footer*/
+Footer {
+  background-color: #626567;
+  padding-bottom: 40px;
+  margin-left: 0px; }
+  Footer #ParrafoFooter {
+    color: white;
+    margin-left: 3%;
+    margin-top: 2%; }
+  Footer .DivFooter {
+    margin-top: 10px;
+    margin-left: 3%; }
+    Footer .DivFooter .LiFooter {
+      padding-bottom: 30px;
+      list-style-type: none; }
+      Footer .DivFooter .LiFooter .RedesFooter {
+        color: white;
+        font-size: 15px;
+        font-weight: lighter; }
+      Footer .DivFooter .LiFooter .RedesFooter:hover {
+        color: white;
+        text-decoration: none;
+        font-weight: bolder; }
+  Footer .NavFooter {
+    padding-top: 5%; }
+    Footer .NavFooter .NavLiFooter {
+      padding-bottom: 15px;
+      list-style-type: none; }
+      Footer .NavFooter .NavLiFooter a {
+        color: white;
+        font-weight: lighter;
+        font-family: 'Montserrat', sans-serif; }
+      Footer .NavFooter .NavLiFooter .NavLiFooter a:hover {
+        font-weight: bolder;
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif; }
+
+/* Whatsapp*/
+#whatsapp {
+  background-color: #01E675;
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  position: fixed;
+  right: 80px;
+  bottom: 80px; }
+
+/* Media*/
+@media only screen and (min-width: 768px) {
+  #barra {
+    color: #9C27B0;
+    font-size: 4rem;
+    font-weight: bolder; }
+  .navbar {
+    justify-content: right;
+    color: #A400FF; }
+  .nav-link {
+    font-weight: bolder;
+    color: #A400FF;
+    padding-left: 35px; }
+  /* Clases*/
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 2000px; }
+  /* Generales*/
+  h2 {
+    font-size: 1.6rem;
+    color: #626567; } }
+
+@media only screen and (min-width: 992px) {
+  /* ID*/
+  #barra {
+    color: #9C27B0;
+    font-size: 4rem;
+    font-weight: bolder; }
+  /* Clases*/
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 2000px; }
+  .navbar {
+    color: #A400FF;
+    justify-content: right; }
+  /* Generales*/
+  h2 {
+    font-size: 1.6rem;
+    color: #626567;
+    padding-left: 10%;
+    padding-right: 10%; } }
+
+@media only screen and (min-width: 1024px) {
+  /* ID*/
+  .SobreMiHabilidad {
+    padding: 20%; }
+  /* Clases*/
+  .navbar {
+    color: #A400FF;
+    justify-content: right; }
+  .navbar-light {
+    color: #A400FF;
+    justify-content: right; }
+  h1 {
+    font-size: 10rem;
+    color: #626567;
+    font-weight: bolder;
+    margin-left: 4%; }
+  h2 {
+    font-size: 1.6rem;
+    color: #626567;
+    padding-left: 10%;
+    padding-right: 10%; }
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 2000px; }
+  .FotoGrandeSecciones {
+    margin-left: 3%;
+    margin-bottom: 3%;
+    margin-right: 3%; }
+  /* Servivios*/
+  .navbar {
+    color: #A400FF;
+    justify-content: right; }
+  /* ID*/
+  #barra {
+    color: #9C27B0;
+    font-size: 5rem;
+    font-weight: bolder; }
+  /* Generales*/
+  h1 {
+    font-size: 4rem;
+    color: #626567;
+    font-weight: lighter;
+    margin-left: 4%; }
+  h2 {
+    font-size: 1,6rem;
+    color: #626567; } }
